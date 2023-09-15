@@ -1,0 +1,59 @@
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    max-width: 100%;
+    background-image: linear-gradient(rgb(188, 190, 190),white);
+    background-repeat: no-repeat;
+}
+
+.text{
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.back{
+    background-color: rgb(45, 48, 49);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.back:hover{
+    background-color: rgb(213, 217, 219);
+}
+
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+
+}
+
+.street{margin: 10px 0px 0px 0px;}
+.city{margin: 0px;}
+.country{margin: 0px 0px 10px 0px;}
+
+
+

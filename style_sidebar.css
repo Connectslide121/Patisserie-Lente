@@ -1,0 +1,127 @@
+.sidebar{
+    background-color: rgb(45, 48, 49);
+}
+
+.logo {
+    width: 120px;
+    border-radius: 50%;
+    margin: 30px;
+    padding: 20px;
+    border: solid black;
+    background: white;
+    height: 100px;
+}
+
+.companyname {
+    font-size: 20px;
+    font-family: "Lucida Handwriting";
+    color: rgb(255, 255, 255, 0.678);
+    margin-left: 24px;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.companyname:hover{
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.nav {
+    padding: 20px;
+    background-color: rgb(45, 48, 49);
+    color:rgb(255, 255, 255, 0.836);
+    clear: both;
+    align-items: center;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 0px;
+}
+
+.nav:hover{
+    background-color: rgb(213, 217, 219);
+    color: white;
+    
+}
+
+.navcurrent {
+    background-color: rgb(213, 217, 219);
+    color:rgb(79, 81, 82);
+    padding: 20px;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 0px;
+}
+
+.navcurrent:hover{
+    color: white;
+}
+
+.navbar{
+    margin: 50px 20px;
+    height: 80px;
+    max-width: 100%;
+}
+
+@media only screen and (max-width:900px) {
+    .nav{
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    .navcurrent{
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    .logo{
+        width: 80px;
+        height: 80px;
+        margin: 20px;
+    }
+
+    .companyname{
+        font-size: 16px;
+        margin-left: 18px;
+    }
+
+    .companyname:hover{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+    .nav{
+        font-size: 8px;
+        padding: 10px;
+        margin-left: -10px;
+    }
+
+    .navcurrent{
+        font-size: 8px;
+        padding: 10px;
+        margin-left: -10px;
+    }
+
+    .logo{
+        width: 40px;
+        height: 40px;
+        margin: 12px;
+    }
+
+    .companyname{
+        font-size: 10px;
+        margin-left: 12px;
+    }
+
+    .companyname:hover{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+}
