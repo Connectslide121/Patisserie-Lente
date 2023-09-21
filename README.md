@@ -1,4 +1,4 @@
-![alt text](https://github.com/Connectslide121/Patisserie-Lente/blob/master/Connect_banner.png?raw=true)
+![alt text](https://github.com/Connectslide121/Patisserie-Lente/blob/master/Connect_banner.png?)
 
 # Patisserie-Lente
 Lexicon - .NET course - Week 1 assignment - Webpage for Patisserie Lente
